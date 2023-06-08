@@ -162,7 +162,7 @@ body{
 
 /* Media Queries */
 
-@media screen and (max-width: 43.12rem) {
+@media screen and (max-width: 40rem) {
 	.main-container {
 		background-color: var(--tablet-container-color);
 		border: 1.2rem solid var(--tablet-container-color);
@@ -170,7 +170,7 @@ body{
 	}
 }
 
-@media screen and (max-width: 25.62rem) {
+@media screen and (max-width: 25rem) {
 	.nav-bar {
 		flex-flow: column nowrap;
 	}
