@@ -27,6 +27,7 @@
 
 	/* text */
 	--nav-bar-text-color: #757575;
+	--hero-text-color:#f59c7b;
 
 	/* Fonts */
 
@@ -38,6 +39,7 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
+	font-size: 0.8rem;
 }
 
 body {
@@ -159,12 +161,12 @@ a {
 
 .hero-text {
 	background-color: rgba(0, 0, 0, 0.05);
-	color: rgba(255, 0, 40, 0.4);
+	color: var(--hero-text-color);
 	font-family: var(--zenAntiqueSoft-font);
 	width: 89rem;
 	padding: 2.5rem 1.5rem;
 	margin-bottom: 2rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	text-align: center;
 }
 
@@ -278,7 +280,7 @@ a {
 
 /* tablet screen */
 
-@media screen and (max-width: 43.12rem) {
+@media screen and (max-width: 40rem) {
 	html {
 		font-size: 1.1rem;
 	}
@@ -315,7 +317,7 @@ a {
 
 /* mobil screen */
 
-@media screen and (max-width: 25.62rem) {
+@media screen and (max-width: 30rem) {
 	html {
 		font-size: 1.2rem;
 	}
